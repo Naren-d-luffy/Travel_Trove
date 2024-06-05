@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about {
+    background-color: rgba(76, 28, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-family: "Merriweather", serif;
+    font-size: 35px;
+  }
+  
+  .air {
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .div-0 {
+    background-color: #8F8F91;
+    padding-bottom: 20px;
+  }
+  
+  .div-1 {
+    display: flex;
+  }
+  
+  .div-2 {
+    padding-left: 60px;
+  }
+  
+  .jh {
+    padding-top: 25px;
+    font-family: "Georgia", serif;
+    font-size: 45px;
+    color: #28252C;
+  }
+  
+  .jp {
+    margin-right: 100px;
+    padding-top: 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .jawa {
+    width: 1000px;
+    height: 400px;
+  }
+  
+  .div-3 {
+    background-color: rgb(52, 84, 209);
+    padding-bottom: 20px;
+  }
+  
+  .div-4 {
+    display: flex;
+  }
+  
+  .div-5 {
+    padding-left: 20px;
+  }
+  
+  .mi {
+    width: 1000px;
+    height: 400px;
+    padding-top: 20px;
+  }
+  
+  .mh {
+    padding-top: 25px;
+    font-family: "Georgia", serif;
+    font-size: 45px;
+  }
+  
+  .mp {
+    margin-right: 20px;
+    padding-top: 20px;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .div-6 {
+    background-color: rgb(129, 150, 143);
+  }
+  
+  .div-7 {
+    display: flex;
+  }
+  
+  .div-8 {
+    padding-left: 60px;
+  }
+  
+  .fh {
+    padding-top: 25px;
+    font-family: "Georgia", serif;
+    font-size: 45px;
+  }
+  
+  .fp {
+    margin-right: 100px;
+    padding-top: 20px;
+    font-family: Raleway, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .naren {
+    width: 1000px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  
+  .div-9 {
+    background-color: rgb(219, 41, 85);
+    padding-bottom: 20px;
+  }
+  
+  .div-10 {
+    display: flex;
+  }
+  
+  .div-11 {
+    padding-left: 15px;
+    padding-right: 30px;
+  
+  }
+  
+  .cu {
+    width: 800px;
+    height: 300px;
+    padding-top: 50px;
+  
+  }
+  
+  .mlh {
+    padding-top: 25px;
+    font-family: "Georgia", serif;
+    font-size: 45px;
+  }
+  
+  .mlp {
+    margin-right: 20px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .fm {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .lets{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Merriweather",serif;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: end;
+    color: whitesmoke;
+}
+
+.happy{
+    display: flex;
+    justify-content: center;
+    font-family: "Great Vibes",serif;
+    font-weight: 500;
+    font-size: 80px;
+    padding: 20px;
+    align-items: end;
+    color: whitesmoke;
+    
+}
+
+.copy{
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    align-items: end;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hap{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.hap:hover{
+  color: rgb(219, 41, 85);;
+}
+
+.footer{
+    background-color:#323031;
+}

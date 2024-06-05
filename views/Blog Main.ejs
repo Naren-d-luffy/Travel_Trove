@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Trove</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+    <body class="body">
+        <div class="logo">
+            <div class="container">
+                <div class="nav">
+                    <a href="/" class="nav-link-1">Travel Trove <img src="../images/airplane-ticket.png" class="air"></a>
+                    <nav class="navmenwrap">
+                        <ul class="navmen-2">
+                            <li>
+                                <a href="/about" class="nav-link">About</a>
+                            </li>
+                            <li>
+                                <a href="/create" class="button">Create your Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="new"><P class="P">Write Your Travel Blogs Here</P></div>
+        <% for (let i = 0; i < posts.length; i++) { %>
+        <h1 class="head">All Posts</h1>
+        <% posts.forEach(post => { %>
+            <div class="post">
+                <h2><%= i + 1 %>. <%= posts[i].title %></h2>
+                <a href="/edit/<%= post.id %>"><button class="button-1">Edit</button></a>
+            </div>
+        <% }); %> <% } %>
+    </body>
+    </html>

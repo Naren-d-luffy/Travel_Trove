@@ -1,0 +1,119 @@
+.body{
+    background-image:url('../images/annie-spratt-qyAka7W5uMY-unsplash.jpg');
+    background-position: 0%;
+    background-size: cover;
+    border: 1px #000;
+    border-radius: 0;
+    margin-left: 0;
+    font-family:'lato',sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.heading {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #97381a;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'merriweather',serif;
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    overflow: visible;
+}
+
+.paragraph {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family:'pt sans',sans-serif;
+    font-size: 50px;
+    display: flex;
+}
+
+.button {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #fff;
+    text-align: left;
+    vertical-align: baseline;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 22px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-decoration: none;
+    display: flex;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.755);
+  } 
+
+.img{
+    width: 45px;
+    height: auto;
+    padding-left:10px ;
+}
+
+.section {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    font-size: 40px;
+    display: flex;
+    overflow: visible;
+}
+
+@media screen and (max-width:991px) {
+    .button{
+        border-radius: 20px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }  
+}
+
+@media screen and (max-width:767px) {
+    .heading{
+        font-size: 60px;
+    }
+    .paragraph{
+        font-size: 20px;
+    }    
+    .button{
+        margin-left: 220px;
+        margin-right: 220px;
+    }  
+}
+
+@media screen and (max-width:767px) {
+    .heading{
+        font-size: 50px;
+    }
+    .paragraph{
+        margin-top: 0;
+        font-size: 15px;
+    }    
+    .button{
+        margin-left: 100px;
+        margin-right: 100px;
+    }  
+}
