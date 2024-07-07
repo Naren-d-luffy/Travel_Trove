@@ -27,15 +27,23 @@
                 </div>
             </div>
         </div>
-
-        <div class="new"><P class="P">Write Your Travel Blogs Here</P></div>
-        <% for (let i = 0; i < posts.length; i++) { %>
         <h1 class="head">All Posts</h1>
-        <% posts.forEach(post => { %>
+        <% for (let i = 0; i < posts.length; i++) { %>
+        
             <div class="post">
-                <h2><%= i + 1 %>. <%= posts[i].title %></h2>
-                <a href="/edit/<%= post.id %>"><button class="button-1">Edit</button></a>
+                <h2><%= posts[i].title%></h2>
+                <p class="cont"><%= posts[i].content %></p>
+               <div class="ton">
+                    <p><span class="sau">Posted by: </span><%= posts[i].author %></p>
+                    <p><span class="sau">Posted on: </span><%= new Date(posts[i].date).toLocaleDateString('en-GB') %></p>
+                    <a href="/edit/<%= posts[i].id %>"><button class="button-1">Edit</button></a>
+                    <form action="/delete" method="post">
+                        <input type="hidden" name="deleteblogid" value="<%= posts[i].id %>">
+                        <button class="button-2" type="submit"><img class="del" src="/images/delete.png"></button>
+                    </form>
+                </div>
             </div>
-        <% }); %> <% } %>
+            <br>
+        <% } %>
     </body>
     </html>
